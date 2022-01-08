@@ -1,0 +1,78 @@
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    
+    /* Then we define the flow direction 
+        and if we allow the items to wrap 
+    * Remember this is the same as:
+    * flex-direction: row;
+    * flex-wrap: wrap;
+    */
+    flex-flow: row nowrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: flex-start;
+    
+    padding-left: 15em;
+    margin: 0;
+    list-style: none;
+}
+
+.cam_section {
+    width: 10%;
+    float: left;
+}
+
+.cam_border {
+    padding: 0em 5em;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.image_section {
+    width: 90%;
+    float: right;
+}
+
+.flex-item {
+    /* background: #f6f0fa; */
+    background: #ebf5ff;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.id_Style {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.merge_Button {
+    position: fixed;
+    margin-top: 5em;
+    margin-left: 2em;
+}
+
+.split_Button {
+    position: fixed;
+    margin-top: 10em;
+    margin-left: 2em;
+}
+
+.delete_Button {
+    position: fixed;
+    margin-top: 15em;
+    margin-left: 2em;
+}
+
+.cam {
+    margin: 1em 0 1em 2em;
+    font-size: 30px;
+}
